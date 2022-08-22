@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  username = 'Beltrano';
+
+  dados = {
+    email: 'Beltrano@gmail.com',
+    telefone: 61999999999
+  }
+
   title = 'angular-curso';
 }
