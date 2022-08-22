@@ -1,0 +1,9 @@
+<div class="class">
+    <h2>if-renderização</h2>
+    <p *ngIf="name === 'Fulano'; else nameNotFound ">Meu nome e Fulano</p>
+    <ng-template #nameNotFound>
+        <div>
+            <p>Nome não encontrado!</p>
+        </div>
+    </ng-template>
+</div>
