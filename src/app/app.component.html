@@ -1,17 +1,6 @@
-<app-first-component></app-first-component>
+<nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/list">Lista</a>
+</nav>
 
-<app-parent-data [name]="username" [dataNem]="dados"></app-parent-data>
-
-<app-directives></app-directives>
-
-<app-if-render></app-if-render>
-
-<app-evento></app-evento>
-
-<app-emitter></app-emitter>
-
-<app-lista-render></app-lista-render>
-
-<app-pipes></app-pipes>
-
-<app-two-way-binding></app-two-way-binding>
+<router-outlet></router-outlet>
