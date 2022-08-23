@@ -1,0 +1,13 @@
+<div class="class">
+    <h2>Two-way=binding</h2>
+    <form>
+        <input 
+            type="text"
+            [(ngModel)]="name"
+            name="name"
+            placeholder="Digite seu nome"
+        />
+        <input type="submit" valor="enviar" />
+    </form>
+    <p>Recebendo o nome do input: {{ name }}</p>
+</div>
