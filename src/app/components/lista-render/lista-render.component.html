@@ -1,7 +1,7 @@
 <div class="class">
     <h2>List Renderiza</h2>
     <ul>
-        <li *ngFor="let animal of animals">Nome: {{ animal.name }} - tipo: {{ animal.type }}
+        <li *ngFor="let animal of animals">Nome:<a routerLink="/list/{{ animal.id}}"> {{ animal.name }}</a> - tipo: {{ animal.type }}
             <button (click)="showAge(animal)">Age</button>
             <button (click)="removendoAnimal(animal)">remover</button>
         </li>   
